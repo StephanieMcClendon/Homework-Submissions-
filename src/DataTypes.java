@@ -1,11 +1,13 @@
+// import scanner imports the Scanner class so that we can get information from the user.
 import java.util.Scanner;
 
 public class DataTypes {
     public static void main(String[] args) {
-// Scanner to intake user input and integers assigned by broken down time phases.
+
         Scanner in = new Scanner(System.in);
+// Declares variables to store user input.
          int weeks, days, hours, minutes, seconds;
-// System requesting user input.
+// Prints
         System.out.println(" Enter an integer for value for weeks.");
         weeks = in.nextInt();
         System.out.println(weeks + "weeks are equal to ");
